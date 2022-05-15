@@ -1,10 +1,31 @@
 .App {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	background-color: #282c34;
+	min-height:       100vh;
+	display:          flex;
+	flex-direction:   column;
+	align-items:      center;
+	justify-content:  center;
+	font-size:        calc(10px + 2vmin);
+	color:            white;
+}
+
+.Input {
+	border-bottom:  1px solid white;
+	padding-bottom: 20px;
+}
+
+.Input > button {
+	color:            #282c34;
+	background-color: #2266bd;
+	height:           50px;
+	cursor:           pointer;
+	border:           none;
+}
+
+.Input > input {
+	border:     none;
+	height:     50px;
+	padding:    10px;
+	outline:    #282c34;
+	box-sizing: border-box;
 }
